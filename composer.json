@@ -1,0 +1,25 @@
+{
+    "name": "hechoendrupal/drupalgenerator",
+    "description": "GUI for Drupal Console",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hecho en Drupal Team",
+            "email": "weare@hechoendrupal.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.0",
+        "monolog/monolog": "~1.0",
+        "symfony/yaml": "~2.3",
+        "symfony/console": "~2.0",
+        "drupal/console": "~0.7.4"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {"HechoEnDrupal\\DrupalGenerator": "src/"}
+    }
+}

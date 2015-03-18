@@ -1,0 +1,8 @@
+/vendor/
+/app/config/prod.php
+/local.build.properties
+bin/
+modules/
+composer.lock
+node_modules
+.idea
