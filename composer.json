@@ -20,6 +20,6 @@
         "bin-dir": "bin/"
     },
     "autoload": {
-        "psr-4": {"HechoEnDrupal\\DrupalGenerator": "src/"}
+        "psr-4": {"HechoEnDrupal\\DrupalGenerator\\": "src/"}
     }
 }
