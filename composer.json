@@ -1,6 +1,6 @@
 {
-    "name": "hechoendrupal/drupalgenerator",
-    "description": "GUI for Drupal Console",
+    "name": "hechoendrupal/drupalgenerator-api",
+    "description": "API for Drupal Console GUI",
     "license": "MIT",
     "type": "project",
     "authors": [
@@ -10,16 +10,18 @@
         }
     ],
     "require": {
-        "silex/silex": "~1.0",
+        "silex/silex": "~1.1",
+        "xeroxzone/process": "dev-master",
+        "deralex/yaml-config-service-provider": "1.0.x-dev",
+        "symfony/config": "~2.3",
         "monolog/monolog": "~1.0",
-        "symfony/yaml": "~2.3",
-        "symfony/console": "~2.0",
-        "drupal/console": "~0.7.4"
+        "nesbot/Carbon": "~1.6",
+        "drupal/console": "~0.9"
     },
     "config": {
         "bin-dir": "bin/"
     },
     "autoload": {
-        "psr-4": {"HechoEnDrupal\\DrupalGenerator\\": "src/"}
+        "psr-4": {"App\\": "src/App"}
     }
 }
