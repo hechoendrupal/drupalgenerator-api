@@ -1,8 +1,4 @@
-/vendor/
-/app/config/prod.php
-/local.build.properties
+vendor/
+storage/
 bin/
-modules/
-composer.lock
-node_modules
-.idea
+config.yml

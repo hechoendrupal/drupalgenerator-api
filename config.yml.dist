@@ -1,0 +1,3 @@
+generator:
+  console: bin/console
+  drupal: /path/to/drupal
