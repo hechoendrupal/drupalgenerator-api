@@ -11,7 +11,6 @@
     ],
     "require": {
         "silex/silex": "~1.1",
-        "xeroxzone/process": "dev-master",
         "deralex/yaml-config-service-provider": "1.0.x-dev",
         "symfony/config": "~2.3",
         "monolog/monolog": "~1.0",
